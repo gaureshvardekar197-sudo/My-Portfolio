@@ -45,7 +45,7 @@ const Skill = () => {
                                 <FaReact color="#61DAFB" size={60} />
                             </div>
                             <span className="text-white mt-4 font-bold text-lg">React.js</span>
-                            <span className="text-gray-400 text-sm mt-1">Beginner</span>
+                            <span className="text-gray-400 text-sm mt-1">Intermediate</span>
                         </div>
                         
                         <div className="p-6 bg-white/5 backdrop-blur-sm rounded-2xl flex flex-col items-center hover:bg-white/10 transition-all duration-300 hover:scale-105 group">
