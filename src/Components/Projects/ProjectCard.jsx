@@ -1,11 +1,10 @@
 import React from 'react'
-import ecommerce from "../../assets/Project.jpg"
 
-const ProjectCard = ({ title, main, github, demo }) => {
+const ProjectCard = ({ title, main, github, demo,image }) => {
   return (
     <div className="p-6 flex flex-col bg-[#0c0e19] shadow-lg rounded-2xl">
       
-      <img className="rounded-xl mb-4" src={ecommerce} alt="project" />
+      <img className="rounded-xl mb-4" src={image} alt="project" />
 
       <h3 className="text-xl md:text-2xl font-bold">{title}</h3>
       <p className="text-sm md:text-md py-2 text-gray-300">{main}</p>

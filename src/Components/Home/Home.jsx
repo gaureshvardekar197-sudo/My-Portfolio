@@ -53,13 +53,19 @@ const Home = () => {
                 </div>
 
                 <button className="group relative mt-5 md:mt-10 text-white py-3 px-8 text-sm md:text-lg font-semibold rounded-3xl bg-gradient-to-r from-[#465697] to-[#3a4a7d] hover:opacity-90 duration-300 hover:scale-105 transition-all overflow-hidden shadow-lg hover:shadow-xl hover:shadow-[#465697]/30">
-                    <span className="relative z-10">Contact Me</span>
+                    <a
+  href="https://wa.me/918010809489?text=Hello%20I%20saw%20your%20portfolio"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <span className="relative z-10">Contact Me</span>
+</a>
                     <div className="absolute inset-0 bg-gradient-to-r from-[#5d6bb8] to-[#465697] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                     <div className="absolute top-0 -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent via-white to-transparent opacity-40 group-hover:animate-shine" />
                 </button>
             </div>
 
-            <div className="relative z-10 md:w-1/2 flex justify-center order-1 md:order-2 mb-10 md:mb-0">
+            <div className="relative z-10 md:w-1/2 flex justify-center order-1 md:order-2 mb-10 md:mb-0 mt-10">
                 <div className="relative">
                     {/* Glow effect */}
                     <div className="absolute -inset-4 bg-gradient-to-r from-[#465697] via-[#5d6bb8] to-[#465697] rounded-full blur-xl opacity-50 animate-pulse" />

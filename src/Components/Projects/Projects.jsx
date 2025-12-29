@@ -1,5 +1,9 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
+import ecommerceImg from "../../assets/React(E-Commerce).png"
+
+import portfolioImg from "../../assets/Portfolio.png"
+
 
 const Projects = () => {
   return (
@@ -12,21 +16,23 @@ const Projects = () => {
           title="E-commerce Website"
           main="E-commerce website built using React.js , Tailwind css and Context API"
           github="https://github.com/gaureshvardekar197-sudo/React.js-Projects"
-          demo="http://localhost:5173/"
-          
+          demo="https://e-commerce-mystore-reactjs.netlify.app/"
+          image={ecommerceImg}
         />
 
-        <ProjectCard
+        {/* <ProjectCard
           title="E-Commerce Website"
           main="E-Commerce website built using Laravel and MySQL"
           github="https://github.com/gaureshvardekar197-sudo/Laravel-Project"
           demo="http://127.0.0.1:8000/"
-        />
+        /> */}
 
         <ProjectCard
           title="My Portfolio"
           main="Portfolio built using React.js and Tailwind css"
-          github=""
+          github="https://github.com/gaureshvardekar197-sudo/My-Portfolio"
+          demo="https://gauresh-portfolio.netlify.app/"
+           image={portfolioImg}
         />
 
       </div>
