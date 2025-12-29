@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImg from "../../assets/Gauresh.jpg";
+import AboutImg from "../../assets/GaureshVardekar.png";
 import { IoArrowForward } from "react-icons/io5";
 
 const About = () => {
@@ -22,7 +22,7 @@ const About = () => {
             <img
               src={AboutImg}
               alt="About"
-              className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-2xl 
+              className="w-64 h-74 md:w-80 md:h-80 object-cover rounded-2xl 
                          shadow-lg hover:scale-105 transition-transform duration-300"
             />
           </div>
@@ -60,8 +60,7 @@ const About = () => {
                   Backend Developer
                 </h2>
                 <p className="text-gray-300 mt-2 leading-relaxed">
-                  I develop secure and scalable backend APIs using Node.js,
-                  Express, and RESTful services.
+                  Handling APIs, application logic, and server-side workflows.
                 </p>
               </div>
             </div>
@@ -78,8 +77,7 @@ const About = () => {
                   Database Developer
                 </h2>
                 <p className="text-gray-300 mt-2 leading-relaxed">
-                  Experienced in designing and managing databases with MongoDB
-                  and SQL for high-performance applications.
+                  Designing optimized, scalable, and secure databases.
                 </p>
               </div>
             </div>
