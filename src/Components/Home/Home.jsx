@@ -1,5 +1,5 @@
 import React from 'react';
-import avatarImg from "../../assets/Myself.jpg";
+import avatarImg from "../../assets/GaureshVardekar.png";
 
 const Home = () => {
     return (
