@@ -22,7 +22,7 @@ const About = () => {
             <img
               src={AboutImg}
               alt="About"
-              className="w-64 h-54 md:w-80 md:h-80 object-cover rounded-2xl 
+              className="w-64 h-74 md:w-80 md:h-80 object-cover rounded-2xl 
                          shadow-lg hover:scale-105 transition-transform duration-300"
             />
           </div>
